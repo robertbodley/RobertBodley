@@ -35,7 +35,7 @@ a {
 
 .header {
 	height: 100vh;
-	margin-top: 120px;
+	margin-top: 70px;
 }
 
 .left {
@@ -78,7 +78,7 @@ ul.items a {
 	margin-right: auto;
 	padding-left: 0;
 	box-sizing: border-box;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 }
 
 .elements ul li {
