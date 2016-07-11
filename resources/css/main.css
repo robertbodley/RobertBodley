@@ -1,5 +1,5 @@
 body {
-	/*font-family: Baskerville, Georgia, Times, serif;*/
+	font-family: Baskerville, Georgia, Times, serif;
 	margin: 0px;
 	padding: 0px;
 	color: #555555;
@@ -35,7 +35,18 @@ a {
 
 .header {
 	height: 100vh;
-	margin-top: 70px;
+	/*margin-top: 140px;*/
+	width: 100%;
+}
+
+.headerInner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -350px;
+	margin-top: -225px;
+	width: 700px;
+
 }
 
 .left {
@@ -78,7 +89,7 @@ ul.items a {
 	margin-right: auto;
 	padding-left: 0;
 	box-sizing: border-box;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 }
 
 .elements ul li {
@@ -93,8 +104,8 @@ ul.items a {
 	border: 1px solid #555555;
 }
 
-.elements ul li:hover {
-	cursor: pointer;
+.elements ul a li:hover {
+	background-color: #E6E6E6;
 }
 
 .elements ul li .title {
@@ -109,7 +120,7 @@ ul.items a {
 
 @media only screen and (max-width: 710px) {
 	body {
-		background-color: #000;
+		/*background-color: #000;*/
 	}
 
 	.main {
